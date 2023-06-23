@@ -1,0 +1,221 @@
+nav{
+    background-color: #F4511E !important;
+    border: none !important;
+    border-radius: 0 !important;
+    margin-bottom: 0px !important;
+}
+
+
+a{
+    color: #FFFFFF !important;
+    opacity: 0.5;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.jumbotron{
+    background-color: #F4511E !important;
+    color: #FFFFFF !important;
+    padding-bottom: 100px !important;
+}
+
+h2{
+    font-size: 54px;
+    font-weight: 400;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.jumbotron input{
+    margin-right: auto;
+}
+
+#about .row h2{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 62px;
+}
+
+#about .row .first{
+    font-weight: 500;
+    padding-bottom: 54px;
+}
+
+#about .row .second{
+    font-weight: 500;
+    color: rgb(129, 129, 129);
+    padding-bottom: 32px;
+}
+
+#about button{
+    padding: 10px;
+}
+
+.glyphicon-globe, .glyphicon-signal{
+    font-size: 200px;
+    color: #F4511E;
+    padding-bottom: 30px !important;
+}
+
+#about .well{
+    border-radius: 0 !important;
+    margin-top: 64px !important;
+}
+
+#about .well p{
+    font-size: 19px;
+}
+
+#about .well .third{
+    padding-bottom: 64px;
+}
+
+#services{
+    margin-bottom: 82px;
+}
+
+#services .tittle{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+#services .para-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#services .glyphicon{
+    font-size: 75px;
+    color: #F4511E;
+}
+
+#services h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+#services p{
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: rgb(129, 129, 129);
+}
+
+#services .row{
+    margin-top: 64px;
+}
+
+#portfolio{
+    background-color: #F6F6F6;
+    padding-top: 72px;
+    margin-bottom: 100px !important;
+}
+
+#portfolio h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 32px;
+}
+
+.para-title{
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    padding-bottom: 32px;
+}
+
+#portfolio h3{
+    font-family: 'Lato', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+}
+
+.thumbnail img{
+    width: 100%;
+}
+
+.thumbnail{
+    padding: 0 !important;
+    margin-bottom: 65px !important;
+}
+
+.carousel{
+    margin-bottom: 35px;
+}
+
+
+.carousel .item{
+    padding-left: 400px !important;
+    padding-right: 400px !important;
+}
+
+.carousel-control{
+    background: none !important;
+    color: #F4511E !important;
+}
+
+.carousel-indicators li{
+    position: relative !important;
+    top: 50px !important;
+}
+
+.carousel-indicators li{
+    background-color: #F4511E !important;
+}
+
+.panel .panel-heading{
+    background-color: #F4511E !important;
+    color: #FFFFFF !important;
+}
+
+#pricing h2{
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    padding-bottom: 32px;   
+}
+
+.panel .panel-footer{
+    background: none !important;
+}
+
+.panel button{
+    background-color: #F4511E !important;
+    color: #FFFFFF !important;
+    padding: 10px;
+}
+
+.carousel-indicators li .active{
+    background: red !important;
+}
+
+*{
+    transition: all 250ms ease !important;
+}
+
+@media (max-width: 780px) {
+    nav .container{
+        display: block;
+    }
+
+    .small-center{
+        text-align: center;
+    }
+    
+    .carousel .item{
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+}

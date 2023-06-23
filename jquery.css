@@ -1,0 +1,25 @@
+.div{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+
+.a{
+    position: relative;
+    background-color: red;
+}
+
+.b{
+    position: absolute;
+    left: 100px;
+    top: 0;
+    background-color: black;
+}
+
+.c{
+    background-color: blue;
+}
+
+.d{
+    background-color: green;
+}

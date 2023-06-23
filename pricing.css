@@ -1,0 +1,39 @@
+nav{
+    background-color: #F4511E !important;
+    border: 0 !important;
+    border-radius: 0 !important;
+}
+
+a{
+    color: #FFFFFF !important;
+    opacity: 0.5;
+}
+
+a:hover{
+    opacity: 1;
+}
+
+h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+}
+
+.containers{
+    margin-top: 50px;
+}
+
+.panel-footer, .panel-heading{  
+    background-color: #F4511E !important;
+    color: #FFFFFF !important;
+}
+
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+@media (max-width : 780px) {
+    nav .container{
+        display: block;
+    }
+}
